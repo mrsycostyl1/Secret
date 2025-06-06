@@ -1,0 +1,24 @@
+chat-app/
+│
+├── pages/
+│   ├── index.tsx             # Login/Signup handler
+│   ├── chat/[chatId].tsx     # Chat screen
+│
+├── components/
+│   ├── AuthForm.tsx
+│   ├── ChatBox.tsx
+│   ├── Message.tsx
+│   ├── UserSearch.tsx
+│   ├── RecentChats.tsx
+│
+├── lib/
+│   ├── firebase.ts           # Firebase setup
+│
+├── styles/
+│   └── globals.css
+│
+├── public/
+│   └── click.mp3             # Click sound
+│
+├── tailwind.config.js
+└── next.config.js
